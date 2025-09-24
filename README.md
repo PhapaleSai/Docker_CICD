@@ -232,11 +232,32 @@ Browser (Your Eyes)
 
 ---
 
+Absolutely! We can add a **super simple 5-year-old style note** about the EC2 restart and updating the GitHub webhook URL. Here’s how it fits into the README:
+
+---
+
+## ⚠️ Important Little Brain Note – Restarting Playground 🛠️
+
+If you **stop and start your EC2 instance**, your playground’s address (public IP) might **change**.
+
+💡 What to do:
+
+1. Go to GitHub → Your repo → Settings → Webhooks
+2. Click your webhook → Edit → Update **Payload URL**:
+
+   ```
+   http://<NEW_EC2_PUBLIC_IP>:8080/github-webhook/
+   ```
+3. Save it ✅
+
+---
+
 ## 🎉 Congratulations, Little Dev!
 
 * Every time you push to GitHub → Chef Jenkins builds your toy → Docker runs it → you see it in browser
 * You are now a **DevOps wizard**! 🧙‍♂️
 
 ---
+
 
 
