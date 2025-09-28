@@ -175,8 +175,8 @@ echo "Your toy is ready at port $PORT!"
    * Fetch code
    * Build Docker toy
    * Run container on a free port
-3. Open your browser: `http://<EC2_PUBLIC_IP>:<PORT>`
-4. 🎉 See your new toy (website) magically appear!
+3. Open your browser: `http://<EC2_PUBLIC_IP>:8081` eg http://13.126.224.209:8081/
+5. 🎉 See your new toy (website) magically appear!
 
 ---
 
@@ -258,6 +258,7 @@ If you **stop and start your EC2 instance**, your playground’s address (public
 * You are now a **DevOps wizard**! 🧙‍♂️
 
 ---
+
 
 
 
