@@ -3,6 +3,7 @@
 # 🚀 Docker CI/CD Adventure – Super Simple Guide for  My Little Brain 😎
 
 # IMP :- jenkins Username:- sai , password:-1
+# Personal Access token without expiration you can use it anytime :- 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 
 
 ## 👶 Hello, Little Dev!
 
@@ -118,6 +119,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
    * Password → GitHub PAT
    * ID → `github-creds`
 3. Click **Create**
+
 
 > ✅ Now chef can fetch new toys automatically!
 
@@ -258,6 +260,7 @@ If you **stop and start your EC2 instance**, your playground’s address (public
 * You are now a **DevOps wizard**! 🧙‍♂️
 
 ---
+
 
 
 
