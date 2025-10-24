@@ -112,7 +112,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ## 7️⃣ Step 7: Tell Chef About Your Toy Box (Add Credentials in Jenkins)
 
-1. Go to Jenkins Dashboard → Manage Jenkins → Credentials → Add Credentials
+1. Go to Jenkins Dashboard → Manage Jenkins → Credentials → Add Credentials (Click on Global)
 2. Choose **Username + Password**
 
    * Username → GitHub username
@@ -260,6 +260,7 @@ If you **stop and start your EC2 instance**, your playground’s address (public
 * You are now a **DevOps wizard**! 🧙‍♂️
 
 ---
+
 
 
 
